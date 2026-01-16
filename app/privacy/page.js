@@ -1,19 +1,8 @@
-export default function PrivacyPolicy() {
+export default function PrivacyPage() {
   return (
-    <section>
+    <main style={{ padding: "40px" }}>
       <h1>Privacy Policy</h1>
-      <p>
-        CoinVision respects your privacy. We do not collect personal data unless
-        voluntarily provided through contact channels such as email, Telegram,
-        Discord, or social platforms.
-      </p>
-      <p>
-        We do not sell, trade, or share user data with third parties. Any
-        communication remains confidential.
-      </p>
-      <p>
-        By using our website, you agree to this privacy policy.
-      </p>
-    </section>
+      <p>Your privacy matters to us.</p>
+    </main>
   );
 }
