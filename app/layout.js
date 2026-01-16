@@ -1,3 +1,5 @@
+import "./globals.css"; // only if you have globals.css
+
 export const metadata = {
   metadataBase: new URL("https://coinvision.vercel.app"),
   title: "CoinVision | Web3 & Crypto Marketing Agency",
