@@ -1,0 +1,91 @@
+/* Reset & basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  background: #050816;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Sections */
+section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+/* Hero */
+.hero h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.hero p {
+  color: #9ca3af;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+/* Services grid */
+.services .grid,
+.trust .grid,
+.case-studies .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Cards */
+.card {
+  background: #0b1020;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+}
+
+/* Trust section */
+.trust .muted,
+.credibility p,
+.case-studies p {
+  color: #9ca3af;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer.footer {
+  padding: 30px 10%;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+footer.footer .footer-links a {
+  margin: 0 10px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+footer.footer .footer-links a:hover {
+  text-decoration: underline;
+}
