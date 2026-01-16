@@ -1,8 +1,8 @@
-"use client";
-import Hero from "../components/Hero";
-import Services from "../components/Services";
-import Credibility from "../components/Credibility";
-import CaseStudies from "../components/CaseStudies";
-import TrustSignals from "../components/TrustSignals";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+export default function HomePage() {
+  return (
+    <main style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
+      <h1>CoinVision</h1>
+      <p>Web3 & Crypto Marketing Agency</p>
+    </main>
+  );
+}
