@@ -1,22 +1,20 @@
-import React from "react";
-
 export default function Credibility() {
-  const badges = [
-    { name: "CMC Ready", description: "Optimized for CoinMarketCap review." },
-    { name: "CG Ready", description: "Optimized for CoinGecko review." },
-    { name: "Trusted Partner", description: "Building credibility in crypto space." }
-  ];
-
   return (
     <section className="credibility">
-      <h2>Our Credibility</h2>
+      <h2>Why CoinVision</h2>
       <div className="grid">
-        {badges.map((badge, index) => (
-          <div className="card" key={index}>
-            <h3>{badge.name}</h3>
-            <p>{badge.description}</p>
-          </div>
-        ))}
+        <div className="card">
+          <h3>Transparency First</h3>
+          <p>No guaranteed listings. Every process follows official guidelines.</p>
+        </div>
+        <div className="card">
+          <h3>CMC & CG Ready</h3>
+          <p>Website and documentation optimized for CoinMarketCap & CoinGecko review.</p>
+        </div>
+        <div className="card">
+          <h3>Real Communication</h3>
+          <p>Direct contact through Telegram, Discord, Email & X.</p>
+        </div>
       </div>
     </section>
   );
