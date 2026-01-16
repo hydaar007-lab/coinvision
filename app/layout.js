@@ -1,11 +1,10 @@
-import "./globals.css";
-
 export const metadata = {
+  metadataBase: new URL("https://coinvision.vercel.app"),
   title: "CoinVision | Web3 & Crypto Marketing Agency",
   description:
-    "CoinVision helps crypto projects with CEX listings, CoinMarketCap & CoinGecko listings, community management, PR and media advertising.",
+    "CoinVision helps crypto projects with CEX listings, CoinMarketCap & CoinGecko listings, community management, and PR and media advertising.",
   keywords:
-    "CoinVision, crypto marketing, CEX listing, CoinMarketCap listing, CoinGecko listing, web3 marketing",
+    "CoinVision, crypto marketing, CEX listing, CoinMarketCap listing, CoinGecko listing",
   openGraph: {
     title: "CoinVision",
     description:
@@ -15,11 +14,3 @@ export const metadata = {
     type: "website"
   }
 };
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
-}
