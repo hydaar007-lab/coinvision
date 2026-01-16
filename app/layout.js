@@ -1,3 +1,4 @@
+"use client";
 export const metadata = {
   metadataBase: new URL("https://coinvision.vercel.app"),
   title: "CoinVision | Web3 & Crypto Marketing Agency",
